@@ -7,9 +7,9 @@ function forLoop (array) {
   return array;
 }
 
-function whileLoop (n)  {
+function whileLoop (num)  {
   while (n > 0) {
-    console.log(--n);
+    console.log(--num);
     n--;
   }
   return 'done'
